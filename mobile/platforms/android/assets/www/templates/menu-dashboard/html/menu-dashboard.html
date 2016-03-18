@@ -1,0 +1,135 @@
+<!--View Information-->
+<!--View name : Menu Dashboard-->
+<!--Controller name : menuDashboardCtrl-->
+<!--Controller path : www/templates/themes/menu-dashboard/js/controllers.js-->
+<!--State name : app.menuDashboard-->
+<!--URL : #app/menuDashboard-->
+
+<ion-view title="Dashboard">
+    <!--menu dashboard section-->
+    <ion-content id="menu-dashboard-content">
+        <!--panel section-->
+        <div class="menu-panel">
+            <div class="row">
+                <div class="col-33" ng-click="navigateTo('app.contacts')">
+                    <i class="fa fa-user"></i>
+
+                    <p>Contats</p>
+                </div>
+                <div class="col-33" ng-click="navigateTo('app.chat')">
+                    <i class="ion-chatboxes"></i>
+
+                    <p>Message</p>
+                </div>
+                <div class="col-33" ng-click="navigateTo('app.login')">
+                    <i class="fa fa fa-sign-in"></i>
+
+                    <p>Login</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-33" ng-click="showToast('Video')">
+                    <i class="fa fa-video-camera"></i>
+
+                    <p>Video</p>
+                </div>
+                <div class="col-33" ng-click="showToast('Setting')">
+                    <i class="fa fa-cog"></i>
+
+                    <p>Setting</p>
+                </div>
+                <div class="col-33" ng-click="showToast('Contract')">
+                    <i class="fa fa-users"></i>
+
+                    <p>Contract</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-33" ng-click="showToast('Inbox')">
+                    <i class="fa fa-inbox"></i>
+
+                    <p>Inbox</p>
+                </div>
+                <div class="col-33" ng-click="showToast('Card')">
+                    <i class="fa fa-credit-card"></i>
+
+                    <p>Card</p>
+                </div>
+                <div class="col-33" ng-click="showToast('More')">
+                    <i class="fa fa-ellipsis-h"></i>
+
+                    <p>More</p>
+                </div>
+            </div>
+        </div><!--end panel section-->
+
+<div flex>
+
+ 	<md-content class="md-padding" >
+        <div layout="column" layout-gt-xs="row" >
+            <md-card flex flex-gt-xs="30">
+                <h2>Script</h2>
+                <md-card-content>
+                    <p style="font-size:10px;">{{scene.script}}</p>
+                    <div ng-repeat="choice in scene.choices.choices" ng-if="scene.choices">
+                        <md-button class="md-raised" style="white-space: inherit;" ng-click="getScene();">{{choice.proposal}}</md-button>
+                    </div>
+                    <div ng-model="scene" ng-if="scene.goto">
+                        <md-button class="md-raised" ng-click="getScene();">NEXT {{scene.goto}}</md-button>
+                    </div>
+                    <div ng-model="scene" ng-if="scene.dies">
+                        <md-button class="md-raised" ng-click="getScene();">CHANCE</md-button>
+                    </div>
+                </md-card-content>
+            </md-card>
+
+            <md-card flex>
+                <h2>SMS</h2>
+                <md-card-content>
+                            <md-list class="md-dense" flex>
+                                <md-list-item class="md-3-line" ng-model='notifications' ng-repeat="notification in notifications" ng-if="notifications">
+                                    <img   ng-src="images/pnj/pnj{{notification.from}}.png" class="md-avatar" >
+                                    <div class="md-list-item-text" layout="column" flex>
+                                        <h3>{{ notification.sender }}</h3>
+                                        <h4 style="white-space: inherit;">{{ notification.content }}</h4>
+										<md-button class="md-raised" style="white-space: inherit;" ng-click="answerQuestion();" ng-repeat="answer in notification.answers">{{answer.content}}</md-button>
+  <div ng-if="notification.timeup" layout="row" layout-sm="column" layout-align="space-around">
+    <md-progress-circular md-mode="determinate" value="{{timer}}"></md-progress-circular>
+  </div>
+                                        <md-divider></md-divider>
+                                    </div>
+                                </md-list-item>
+                            </md-list>
+                </md-card-content>
+            </md-card>
+        </div>
+    </md-content>
+    <md-content flex layout-padding>
+<!-- movie -->
+	</md-content>
+	<div style="padding-left: 25px;" ng-model="context">{{context}}</div>
+
+  </div>
+</div>
+
+        <!--panel footer section-->
+        <div class="menu-dashboard-footer">
+            <md-whiteframe class="md-whiteframe-z1" layout ng-click="getScenario();showToast('Scenario is started')" ng-repeat="scenario in scenarios">
+                <div class="row">
+                    <div class="col-10">
+                        <i class="fa fa-wordpress"></i>
+                    </div>
+                    <div class="col-80">
+                        {{scenario.title}}
+                    </div>
+                    <div class="col-10">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+            </md-whiteframe>
+
+        </div><!--end panel footer section-->
+    </ion-content><!--Menu dashboard section-->
+</ion-view>

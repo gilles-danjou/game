@@ -1,0 +1,22 @@
+<ion-view title="Face Time">
+    <!--login content section-->
+    <ion-content scroll="false">
+       <div  id="movie" layout="row" layout-fill layout-align="center start">
+          <md-card class="{{pnj.whiteframe}}" ng-repeat="pnj in pnjs track by $index" ng-if="pnj.ID">
+              <md-card-title>
+                  <md-card-title-text>
+                      <div class='wrapper'>
+                          <img style="height:400px;" ng-src="images/pnj/pnj{{pnj.ID}}.png" class="md-card-image"
+                          alt="Washed Out">
+                          <div class='description'>
+                              <p class='description_content'>{{pnj.subtitle}}</p>
+                          </div>
+                      </div>
+                      <span class="md-headline">{{$parent.pnj.fullName}}</span>
+                  </md-card-title-text>
+              </md-card-title>
+          </md-card>
+      </div>
+
+    </ion-content><!--end login content section-->
+</ion-view>

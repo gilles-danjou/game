@@ -1,0 +1,19 @@
+<ion-view title="Employee">
+
+    <ion-content has-header="true" padding="true">
+
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="img/pnj/{{employee.picture }}"/>
+                <h2>{{employee.firstName}} {{employee.lastName}}</h2>
+                <p>{{employee.title}}</p>
+            </div>
+            <a class="item item-icon-left" href="tel:{{employee.officePhone}}"><i class="icon ion-information-circled"></i>Infos<p>{{employee.infos}}</p></a>
+            <a class="item item-icon-left" href="tel:{{employee.cellPhone}}"><i class="icon ion-ios7-telephone"></i>Call Cell<p>{{employee.cellPhone}}</p></a>
+            <a class="item item-icon-left" href="sms:{{employee.cellPhone}}"><i class="icon ion-chatbox-working"></i>SMS<p>{{employee.cellPhone}}</p></a>
+            <a class="item item-icon-left" href="mailto:{{employee.email}}"><i class="icon ion-ios7-email"></i>Email<p>{{employee.email}}</p></a>
+        </div>
+
+    </ion-content>
+
+</ion-view>

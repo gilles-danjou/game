@@ -1,0 +1,1389 @@
+
+{
+	"toJSON" : true,
+	"extraProperties" : 
+	{
+		"version" : "2",
+		"classes" : 
+		{
+			"Scene" : 
+			{
+				"panelColor" : "#4FA997",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 282,
+						"Y" : 19
+					}
+				}
+			},
+			"Clue" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 1444,
+						"Y" : 48
+					}
+				}
+			},
+			"PNJ" : 
+			{
+				"panelColor" : "#76923C",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1214,
+						"Y" : 425
+					}
+				}
+			},
+			"Character" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 577,
+						"Y" : 22
+					}
+				}
+			},
+			"Scenario" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 25,
+						"Y" : 20
+					}
+				}
+			},
+			"InOut" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 822,
+						"Y" : 20
+					}
+				}
+			},
+			"Deduction" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 1444,
+						"Y" : 184
+					}
+				}
+			},
+			"Decision" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 1454,
+						"Y" : 481
+					}
+				}
+			},
+			"Player" : 
+			{
+				"panelColor" : "#E5B9B7",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 39,
+						"Y" : 581
+					}
+				}
+			},
+			"Interrogatory" : 
+			{
+				"panelColor" : "#BFBFBF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"position" : 
+					{
+						"X" : 1459,
+						"Y" : 624
+					}
+				}
+			},
+			"Medal" : 
+			{
+				"panelColor" : "#548DD4",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1084,
+						"Y" : 23
+					}
+				}
+			},
+			"Skill" : 
+			{
+				"panelColor" : "#4FA997",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1086,
+						"Y" : 169
+					}
+				}
+			},
+			"Player_Skill" : 
+			{
+				"panelColor" : "#D88CFF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 354,
+						"Y" : 579
+					}
+				}
+			},
+			"Player_Medal" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 350,
+						"Y" : 791
+					}
+				}
+			},
+			"Event" : 
+			{
+				"panelColor" : "#C3D69B",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 603,
+						"Y" : 355
+					}
+				}
+			},
+			"PushNotification" : 
+			{
+				"panelColor" : "#B7DDE8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 1215,
+						"Y" : 848
+					}
+				}
+			},
+			"Action" : 
+			{
+				"panelColor" : "#C4BD97",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 25,
+						"Y" : 270
+					}
+				}
+			},
+			"Dialog" : 
+			{
+				"panelColor" : "#D8D8D8",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 881,
+						"Y" : 355
+					}
+				}
+			},
+			"Answer" : 
+			{
+				"panelColor" : "#7F7F7F",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 897,
+						"Y" : 734
+					}
+				}
+			},
+			"Question" : 
+			{
+				"panelColor" : "#D88CFF",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 641,
+						"Y" : 605
+					}
+				},
+				"attributes" : 
+				{
+					"nextStep" : 
+					{
+						"note" : "détermine le suite de l’action suivant la repose :\n\nquestion : pose une nouvelle question\n\ndialog : continue le dialogue\n\nevent : déclence un évènement.\n\nL’ID de la question ou du dialogue ou évènement suivant est dans : answer.nextSeptID"
+					}
+				}
+			}
+		},
+		"model" : 
+		{
+			"scriptMode" : "manual",
+			"workspaceLeft" : 882,
+			"workspaceTop" : 334,
+			"relationCurve" : 
+			{
+				"run" : true,
+				"mode" : 1
+			},
+			"lastScriptLocation" : 
+			{
+				"PushNotification" : 
+				{
+					"computed" : "PushNotification/PushNotification-events.js"
+				},
+				"PNJ" : 
+				{
+					"computed" : "PNJ/PNJ-events.js"
+				},
+				"Dialog" : 
+				{
+					"computed" : "Dialog/Dialog-events.js"
+				}
+			}
+		}
+	},
+	"dataClasses" : 
+	[
+		{
+			"name" : "Action",
+			"className" : "Action",
+			"collectionName" : "Actions",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "beginTime",
+					"kind" : "storage",
+					"matchColumn" : "minTime",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "endTime",
+					"kind" : "storage",
+					"matchColumn" : "maxTime,maxT",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "completed",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "config",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Answer",
+			"className" : "Answer",
+			"collectionName" : "Answers",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "content",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "question",
+					"kind" : "relatedEntity",
+					"matchColumn" : "choice",
+					"scope" : "public",
+					"type" : "Question",
+					"path" : "Question"
+				},
+				{
+					"name" : "nextStepID",
+					"kind" : "storage",
+					"matchColumn" : "eventID",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Character",
+			"className" : "Character",
+			"collectionName" : "Characters",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "scene",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Scene",
+					"path" : "Scene"
+				},
+				{
+					"name" : "PNJ_ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "inOuts",
+					"kind" : "relatedEntities",
+					"matchColumn" : "inOutCollection",
+					"scope" : "public",
+					"type" : "InOuts",
+					"reversePath" : true,
+					"path" : "character"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Clue",
+			"className" : "Clue",
+			"collectionName" : "Clues",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Decision",
+			"className" : "Decision",
+			"collectionName" : "Decisions",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Deduction",
+			"className" : "Deduction",
+			"collectionName" : "Deductions",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Dialog",
+			"className" : "Dialog",
+			"collectionName" : "Dialogs",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "event",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Event",
+					"path" : "Event"
+				},
+				{
+					"name" : "nextDialogID",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "context",
+					"kind" : "storage",
+					"matchColumn" : "Context",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "pnj",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "PNJ",
+					"path" : "PNJ"
+				},
+				{
+					"name" : "subtitle",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "audio",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "timeline",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "number",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.Dialog.timeline.onGet",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "pnjName",
+					"kind" : "alias",
+					"scope" : "public",
+					"type" : "string",
+					"path" : "pnj.fullName"
+				},
+				{
+					"name" : "questions",
+					"kind" : "relatedEntities",
+					"matchColumn" : "question,choices",
+					"scope" : "public",
+					"type" : "Questions",
+					"reversePath" : true,
+					"path" : "dialog"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Event",
+			"className" : "Event",
+			"collectionName" : "Events",
+			"matchTable" : "Events",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "pushNotifications",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "actions",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "dialogs",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Dialogs",
+					"reversePath" : true,
+					"path" : "event"
+				},
+				{
+					"name" : "scene",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Scene",
+					"path" : "Scene"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "InOut",
+			"className" : "InOut",
+			"collectionName" : "InOuts",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "character",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Character",
+					"path" : "Character"
+				},
+				{
+					"name" : "inTime",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "outTime",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "trigger",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Interrogatory",
+			"className" : "Interrogatory",
+			"collectionName" : "InterrogatoryCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Medal",
+			"className" : "Medal",
+			"collectionName" : "Medals",
+			"matchTable" : "Medals",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Player",
+			"className" : "Player",
+			"collectionName" : "PlayerCollection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "skills",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Player_Skills",
+					"reversePath" : true,
+					"path" : "player"
+				},
+				{
+					"name" : "medals",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Player_Medals",
+					"reversePath" : true,
+					"path" : "player"
+				},
+				{
+					"name" : "money",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Player_Medal",
+			"className" : "Player_Medal",
+			"collectionName" : "Player_Medals",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "player",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Player",
+					"path" : "Player"
+				},
+				{
+					"name" : "medal_ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Player_Skill",
+			"className" : "Player_Skill",
+			"collectionName" : "Player_Skills",
+			"matchTable" : "Skilled,Skill,Player_skill",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "player",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Player",
+					"path" : "Player"
+				},
+				{
+					"name" : "percentage",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "skill_ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "stars",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "PNJ",
+			"className" : "PNJ",
+			"collectionName" : "PNJs",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "gender",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "firstName",
+					"kind" : "storage",
+					"matchColumn" : "firstname",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "lastName",
+					"kind" : "storage",
+					"matchColumn" : "lastname",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dead",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "infos",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "dialogs",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Dialogs",
+					"reversePath" : true,
+					"path" : "pnj"
+				},
+				{
+					"name" : "fullName",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "string",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.PNJ.fullName.onGet",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "picture",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "string",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.PNJ.picture.onGet",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "city",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "email",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "cellPhone",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "title",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "PushNotification",
+			"className" : "PushNotification",
+			"collectionName" : "PushNotifications",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "content",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "scheduledTime",
+					"kind" : "storage",
+					"matchColumn" : "scheduleTime",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "sent",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "from",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "sender",
+					"kind" : "calculated",
+					"scope" : "public",
+					"type" : "string",
+					"scriptKind" : "javascript",
+					"onGet" : 
+					[
+						{
+							"from" : "$mainModel.PushNotification.sender.onGet",
+							"userDefined" : true
+						}
+					]
+				},
+				{
+					"name" : "type",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Question",
+			"className" : "Question",
+			"collectionName" : "Questions",
+			"matchTable" : "Choice",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "dialog",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Dialog",
+					"path" : "Dialog"
+				},
+				{
+					"name" : "question",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "answers",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Answers",
+					"reversePath" : true,
+					"path" : "question"
+				},
+				{
+					"name" : "nextStep",
+					"kind" : "storage",
+					"matchColumn" : "type",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Scenario",
+			"className" : "Scenario",
+			"collectionName" : "Scenarios",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "scenes",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Scenes",
+					"reversePath" : true,
+					"path" : "scenario"
+				},
+				{
+					"name" : "title",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "level",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "firstScene",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "firstEvent",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Scene",
+			"className" : "Scene",
+			"collectionName" : "Scenes",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "scenario",
+					"kind" : "relatedEntity",
+					"scope" : "public",
+					"type" : "Scenario",
+					"path" : "Scenario"
+				},
+				{
+					"name" : "characters",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Characters",
+					"reversePath" : true,
+					"path" : "scene"
+				},
+				{
+					"name" : "scriptID",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "script",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "clues",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "deduction",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "decision",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "question",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "actionType",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "goto",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "number"
+				},
+				{
+					"name" : "dies",
+					"kind" : "storage",
+					"matchColumn" : "dies_range,dierange",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "choices",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "object"
+				},
+				{
+					"name" : "gotoInterrogatory",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "bool"
+				},
+				{
+					"name" : "events",
+					"kind" : "relatedEntities",
+					"scope" : "public",
+					"type" : "Events",
+					"reversePath" : true,
+					"path" : "scene"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "Skill",
+			"className" : "Skill",
+			"collectionName" : "SkillTypes",
+			"matchTable" : "Skilld,SkillType,Skill",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"indexed" : true,
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "name",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				},
+				{
+					"name" : "description",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "string"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		}
+	]
+}

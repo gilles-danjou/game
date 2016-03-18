@@ -1,0 +1,5 @@
+tunnels:
+  game:
+    proto: http
+    addr: 8102
+    subdomain: suziesirena
