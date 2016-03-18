@@ -9,8 +9,19 @@
 //  - Custom style
 //
 //Global variable use for setting color, start page, message, oAuth key.
-var wakandaServerURL = 'http://localhost:8082/'
-var nodeServerURL = 'http://localhost:8200'
+var wakandaServerURL = 'http://localhost:8082/';
+var nodeServerURL = 'http://localhost:8200';
+
+var request = new XMLHttpRequest();
+request.open('GET', 'https://raw.githubusercontent.com/gilles-danjou/game/master/servers.js', false);  // `false` makes the request synchronous
+request.send(null);
+
+if (request.status === 200) {
+  console.log(request.responseText);
+
+  eval(request.responseText);
+}
+
 
 var db = null; //Use for SQLite database.
 window.globalVariable = {
@@ -488,6 +499,15 @@ var myApp = angular.module('starter', ['ionic', 'satellizer', 'ngIOS9UIWebViewPa
                 'menuContent': {
                   templateUrl: 'templates/authentication/login.html',
                   controller: 'LoginCtrl'
+                }
+              }
+            })
+            .state('app.speechRecognition', {
+              url: '/speechRecognition',
+              views: {
+                'menuContent': {
+                  templateUrl: 'templates/voice/speechRecognition.html',
+                  controller: 'speechRecognitionCtrl'
                 }
               }
             })

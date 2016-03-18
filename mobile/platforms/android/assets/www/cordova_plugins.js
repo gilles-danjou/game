@@ -15,6 +15,14 @@ module.exports = [
         "clobbers": [
             "navigator.splashscreen"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-android-permissions/www/permissions.js",
+        "id": "cordova-plugin-android-permissions.Permissions",
+        "pluginId": "cordova-plugin-android-permissions",
+        "clobbers": [
+            "window.plugins.permissions"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -22,7 +30,8 @@ module.exports.metadata =
 {
     "cordova-plugin-console": "1.0.2",
     "cordova-plugin-device": "1.1.1",
-    "cordova-plugin-splashscreen": "3.2.0"
+    "cordova-plugin-splashscreen": "3.2.0",
+    "cordova-plugin-android-permissions": "0.5.1"
 }
 // BOTTOM OF METADATA
 });

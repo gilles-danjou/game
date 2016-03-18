@@ -2044,3 +2044,24 @@
 2016-03-18 11:05:28 [wakanda.app] INFO - "app" solution started
 2016-03-18 11:05:28 [wakanda] INFO - "app" solution has been successfully opened for running (duration: 4347 ms)
 2016-03-18 11:05:28 [wakanda.supervisor] INFO - solution opened
+2016-03-18 13:47:07 [wakanda.app] INFO - Users and groups directory opened
+2016-03-18 13:47:08 [wakanda.app.app] INFO - Datastore opened
+2016-03-18 13:47:08 [IndexManager] INFO - Index  on Question.ID built in 0 ms
+2016-03-18 13:47:08 [wakanda.app.app] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8082,"securedPort":443,"mode":"http"}
+2016-03-18 13:47:08 [wakanda.app.app] INFO - "app" project opened
+2016-03-18 13:47:08 [wakanda.app.ServerAdmin] INFO - Publication settings loaded: {"hostName":"localhost","listen":"any","port":8080,"securedPort":4433,"mode":"bothButHTTPLocalOnly"}
+2016-03-18 13:47:08 [wakanda.app.ServerAdmin] INFO - "ServerAdmin" project opened
+2016-03-18 13:47:08 [wakanda.app] INFO - "app" solution opened
+2016-03-18 13:47:08 [wakanda] INFO - Starts "app" solution
+2016-03-18 13:47:09 [wakanda.app.ServerAdmin] WARN - Failed to set the required key and certificate for secure connections
+2016-03-18 13:47:09 [wakanda.app.ServerAdmin] INFO - HTTP Server started
+2016-03-18 13:47:09 [wakanda.app.ServerAdmin] INFO - "ServerAdmin" project started
+2016-03-18 13:47:09 [wakanda.app.app] INFO - HTTP Server started
+2016-03-18 13:47:09 [wakanda.app.app] INFO - "app" project started
+2016-03-18 13:47:09 [wakanda.app.ServerAdmin] INFO - Executes the bootstrap file(s)
+2016-03-18 13:47:10 [wakanda.app.ServerAdmin] INFO - Bootstrap file(s) executed
+2016-03-18 13:47:10 [wakanda.app.app] INFO - Executes the bootstrap file(s)
+2016-03-18 13:47:10 [wakanda.app.app] INFO - Bootstrap file(s) executed
+2016-03-18 13:47:10 [wakanda.app] INFO - "app" solution started
+2016-03-18 13:47:10 [wakanda] INFO - "app" solution has been successfully opened for running (duration: 4468 ms)
+2016-03-18 13:47:10 [wakanda.supervisor] INFO - solution opened
